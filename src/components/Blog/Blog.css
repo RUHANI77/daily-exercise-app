@@ -1,3 +1,17 @@
 .blog-container{
-    margin: 0px 300px 50px 50px;
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+        margin: 100px 50px;
+}
+.blogs {
+    border: 3px solid purple;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
