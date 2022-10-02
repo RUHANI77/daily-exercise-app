@@ -1,9 +1,15 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
     return (
         <div>
-            <h1>This is my header</h1>
+            <nav className='header'>
+                <div className="title">
+                    <h1>Daily Exercise App</h1>
+                    <h3>Select today's exercise Now!</h3>
+                </div>
+            </nav>
         </div>
     );
 };

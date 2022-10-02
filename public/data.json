@@ -1,0 +1,50 @@
+[
+    {
+        "id": "633852fcf05d358e514d9bf1",
+        "img": "https://post.healthline.com/wp-content/uploads/2020/08/11569-All_You_Need_to_Know_About_Anaerobic_Exercise_1200x628-facebook-1200x628.jpg",
+        "age": "20-25",
+        "name": "Chest Press Machine",
+        "details":"The cleavage-enhancing chest fly is another popular pectoral exercise. Weight lifters perform the chest fly while lying face-up on a weight bench, holding one dumbbell in each hand. The exercise begins with the weights together",
+        "time": "40 m"
+    },
+    {
+        "id": "633852fc6d8e11adb9835da1",
+        "img": "https://imageio.forbes.com/specials-images/dam/imageserve/1130300334/960x0.jpg?height=474&width=711&fit=bounds",
+        "age": "20-25",
+        "name": "The Bench Press",
+        "details":"The bench press, performed either with dumbbells or barbells, is one of the most common weight training exercises. The pectoral or chest muscles perform most of the movement.",
+        "time": "40 m"
+    },
+    {
+        "id": "633852fc489056c1897fe7d6",
+        "img": "http://images.agoramedia.com/wte3.0/gcms/Exercise-Before-Pregnancy-Toning-Down-Your-Workouts-722x406.jpg?width=414",
+        "age": "18-30",
+        "name": "Triceps Extension",
+        "details": "The triceps extension works the muscles in the back of the arm. The lifter sits on a seated weight bench with his back supported against the bench seat.",
+        "time": "40 m"
+    },
+    {
+        "id": "633852fcbf03ba0ab72a4cf5",
+        "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/04/Female_Squat_1296x728-header.jpg?w=1155&h=1528",
+        "age": "15-22",
+        "name": "Lever Lying Leg Curl",
+        "details":"Your legs can benefit from using weight-lifting equipment as well. For the lying leg curl, face the bench and in front of the lever pads. Lie on your stomach on the bench and insert your lower legs under the pads. Hols onto the handles on the bench.",
+        "time": "40 m"
+    },
+    {
+        "id": "633852fcc5fdaba2d0536d18",
+        "img": "https://medstudentstories.merckmanuals.com/wp-content/uploads/2018/06/workout.jpg",
+        "age": "19-33",
+        "name": "Lateral Raise",
+        "details":"The lateral raise is a shoulder exercise that works the lateral portion of the deltoid muscle. Developing this muscle group is like adding shoulder pads to a blouse or jacket.",
+        "time": "40 m"
+    },
+    {
+        "id": "633852fc6377d98a4cf5f3c5",
+        "img": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/20808/images/L1QczJFROOaFLVFrnOWU_Shan-Congdon-Yards_72.jpg",
+        "age": "16-23",
+        "name": "Rear Delt Row",
+        "details":"Experienced weight lifters, especially those in competition, understand the importance of symmetry between the chest and back muscles. While the chest fly enhances cleavage and definition in the front of the body, the rear delt row balances the muscle groups by working the upper back and rear shoulder muscles.",
+        "time": "40 m"
+    }
+]
