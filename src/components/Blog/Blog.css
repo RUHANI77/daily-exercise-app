@@ -5,7 +5,7 @@
         margin: 100px 50px;
 }
 .blogs {
-    border: 3px solid lightcoral;
+    box-shadow: 0 4px 8px 0 lightcoral;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 8px;

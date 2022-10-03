@@ -50,23 +50,23 @@ const Shop = () => {
         addToDb(selectedProduct.id);
     }
 
-    return (
-
-        <div className='shop-container'>
-            <div className="products-container">
-                {
-                    products.map((product) => (<Product
-                        product={product}
-                        key={product.id}
-                        handleAddToCart={handleAddToCart}
-                    ></Product>))
-                }
+    return (    
+            <div className='shop-container'>
+                <div className="products-container">
+                    {
+                        products.map((product) => (<Product
+                            product={product}
+                            key={product.id}
+                            handleAddToCart={handleAddToCart}
+                        ></Product>))
+                    }
+                </div>
+                <div className="cart-container">
+                    <Cart cart={cart}
+                    ></Cart>
+                </div>
             </div>
-            <div className="cart-container">
-                <Cart cart={cart}
-                ></Cart>
-            </div>
-        </div>
+        
     );
 };
 
