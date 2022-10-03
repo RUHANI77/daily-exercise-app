@@ -30,9 +30,23 @@ const Cart = ({ cart }) => {
                 <div>
                     <h4>Jihad Hasan Dipu</h4>
                     <p><small>Dhaka, Bangladesh</small></p>
+                    <div className='user-details'>
+                        <div>
+                            <h3>75kg</h3>
+                            <p>Weight</p>
+                        </div>
+                        <div>
+                            <h3>6</h3>
+                            <p>Height</p>
+                        </div>
+                        <div>
+                            <h3>22yrs</h3>
+                            <p>Age</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <h4>Details</h4>
+                    <h4>Exercise Details:</h4>
                     <h4>Add a Break(s)</h4>
                     <div className='break-time'>
                         <div className='break-btn'>

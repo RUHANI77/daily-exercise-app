@@ -12,6 +12,12 @@
 .profile-info {
     text-align: center;
 }
+.user-details{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    border-radius: 10px;
+}
 .break-time{
     display: flex;
     justify-content: center;
