@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Toast from '../Toast/Toast'; 
 import logo from '../images/player-1.png';
 import './Cart.css';
 
@@ -50,7 +51,7 @@ const Cart = ({ cart }) => {
                     <p>Exercise time: {total} seconds</p>
                     <p>Break time: {value} seconds</p>
                 </div>
-                <button className='activity-btn'>Activity Completed!</button>
+                <Toast></Toast>
             </div> 
         </div>
     );

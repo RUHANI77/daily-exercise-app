@@ -28,4 +28,5 @@
 
 .btn-cart:hover {
     background-color: lightcoral;
+    font-weight: 700;
 }

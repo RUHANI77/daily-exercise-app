@@ -5,9 +5,10 @@
         margin: 100px 50px;
 }
 .blogs {
-    border: 3px solid purple;
+    border: 3px solid lightcoral;
     border-radius: 5px;
     padding: 15px;
+    margin-bottom: 8px;
 }
 
 @media screen and (max-width: 1100px) {

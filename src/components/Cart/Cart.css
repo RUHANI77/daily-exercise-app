@@ -17,6 +17,7 @@
     justify-content: center;
 }
 .break-time input{
+    background-color: lightcoral;
     height: 40px;
     width: 40px;
     border: none;
@@ -25,17 +26,14 @@
 }
 
 .break-time input:hover{
-    background-color: lightcoral;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
 }
 
 .break-time input:visited {
-    background-color: lightcoral;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
 }
 
-.activity-btn {
-    background-color: lightcoral;
-    font-weight: 500;
-    border: none;
-    border-radius: 8px;
-    padding: 10px;
-}
