@@ -1,17 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../images/player-1.png';
 import Product from '../Product/Product';
+import { addToDb, getStoreCart } from '../utilities/fakedb';
+import Cart from '../Cart/Cart';
 import './Shop.css';
 
 const Shop = () => {
    
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch("data.json")
             .then(res => res.json())
             .then(data => setProducts(data));
     }, []);
+
+
+    const handleAddToCart = (product) => {
+        console.log(product);
+        const NewCart = [...cart, product];
+        setCart(NewCart);
+    }
 
     return (
 
@@ -21,10 +31,12 @@ const Shop = () => {
                     products.map((product) => (<Product
                         product={product}
                         key={product.id}
+                        handleAddToCart={handleAddToCart}
                     ></Product>))
                 }
             </div>
             <div className="cart-container">
+                <Cart cart={cart}></Cart>
                 <div className="profile-info">
                     <div>
                         <img src={logo} alt="" />
@@ -46,7 +58,7 @@ const Shop = () => {
                         <p>Exercise time:</p>
                         <p>Break time:</p>
                     </div>
-                   
+                    <button className='activity-btn'>Activity Completed!</button>
                </div>
             </div>
         </div>
