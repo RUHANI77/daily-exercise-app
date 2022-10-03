@@ -4,17 +4,21 @@ import logo from '../images/player-1.png';
 import './Cart.css';
 
 const Cart = ({ cart }) => {
-    
     console.log(cart);
     let total = 0;
+    let quantity = 0;
     for (const product of cart) {
-        total = total + product.time;
+        quantity = quantity + product.quantity;
+        total = total + product.time * product.quantity;
+
+        localStorage.setItem("Total Exercise Time", JSON.stringify(total));
     }
 
     const [value, setValue] = useState(0);
     const handleOnClick = (e) => {
         const isSetValue = e.target.value;
         setValue(e.target.value);
+        localStorage.setItem("breaktime", JSON.stringify(isSetValue));
     };
 
     return (
@@ -47,7 +51,7 @@ const Cart = ({ cart }) => {
                             <input type="button" name="" value="50" onClick={handleOnClick}/>
                         </div>
                     </div>
-                    <p>Selected items: {cart.length}</p>
+                    <p>Selected items: {quantity}</p>
                     <p>Exercise time: {total} seconds</p>
                     <p>Break time: {value} seconds</p>
                 </div>
