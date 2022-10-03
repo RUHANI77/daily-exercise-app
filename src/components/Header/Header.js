@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faPersonWalking } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Header.css';
 
@@ -6,9 +8,11 @@ const Header = () => {
         <div>
             <nav className='header'>
                 <div className="title">
-                    <h1>Daily Exercise App</h1>
-                    <h3>Select today's exercise Now!</h3>
+                    <FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon>
+                    <h1 className='title-icon'>Daily Exercise App</h1>
+                    
                 </div>
+                <h3>Select today's exercise Now!</h3>
             </nav>
         </div>
     );

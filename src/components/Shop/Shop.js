@@ -55,6 +55,7 @@ const Shop = () => {
                             <button>50m</button>
                         </div>
                         <h4>Details</h4>
+                        <p>Selected items: {cart.length}</p>
                         <p>Exercise time:</p>
                         <p>Break time:</p>
                     </div>

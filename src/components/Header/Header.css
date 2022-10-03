@@ -5,3 +5,12 @@
 h1{
     color:navy;
 }
+.header .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-icon{
+    margin-left: 5px;
+}
