@@ -3,3 +3,32 @@
     top: 0;
     padding: 30 px 20px;
 }
+.profile-info img {
+    width: 40%;
+    border-radius: 400px;
+    border: 4px solid darkgreen;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.break-time button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.break-time button:hover {
+    background-color: lightcoral;
+}
+
+.activity-btn {
+    background-color: lightcoral;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}

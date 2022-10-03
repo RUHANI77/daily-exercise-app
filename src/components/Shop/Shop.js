@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../images/player-1.png';
+
 import Product from '../Product/Product';
 import { addToDb, getStoreCart } from '../utilities/fakedb';
 import Cart from '../Cart/Cart';
@@ -37,30 +37,7 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart}></Cart>
-                <div className="profile-info">
-                    <div>
-                        <img src={logo} alt="" />
-                    </div>
-                    <div>
-                        <h4>Jihad Hasan Dipu</h4>
-                        <p><small>Dhaka, Bangladesh</small></p>
-                    </div>
-                    <div>
-                        <h4>Add a Break</h4>
-                        <div className='activity-time'>
-                            <button>10m</button>
-                            <button>20m</button>
-                            <button>30m</button>
-                            <button>40m</button>
-                            <button>50m</button>
-                        </div>
-                        <h4>Details</h4>
-                        <p>Selected items: {cart.length}</p>
-                        <p>Exercise time:</p>
-                        <p>Break time:</p>
-                    </div>
-                    <button className='activity-btn'>Activity Completed!</button>
-               </div>
+                
             </div>
         </div>
     );
