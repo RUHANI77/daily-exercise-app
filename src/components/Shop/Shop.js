@@ -4,6 +4,7 @@ import Product from '../Product/Product';
 import { addToDb, getStoreCart } from '../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import './Shop.css';
+import '../Cart/Cart.css'
 
 const Shop = () => {
    
@@ -36,8 +37,8 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
-                
+                <Cart cart={cart}
+                ></Cart>
             </div>
         </div>
     );

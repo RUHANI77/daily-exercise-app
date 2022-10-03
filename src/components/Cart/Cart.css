@@ -12,8 +12,11 @@
 .profile-info {
     text-align: center;
 }
-
-.break-time button {
+.break-time{
+    display: flex;
+    justify-content: center;
+}
+.break-time input{
     height: 40px;
     width: 40px;
     border: none;
@@ -21,7 +24,11 @@
     margin-right: 5px;
 }
 
-.break-time button:hover {
+.break-time input:hover{
+    background-color: lightcoral;
+}
+
+.break-time input:visited {
     background-color: lightcoral;
 }
 

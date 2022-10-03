@@ -5,7 +5,7 @@
         "age": "20-25",
         "name": "Chest Press Machine",
         "details":"The cleavage-enhancing chest fly is another popular pectoral exercise. Weight lifters perform the chest fly while lying face-up on a weight bench, holding one dumbbell in each hand.",
-        "time": "40"
+        "time": 30
     },
     {
         "id": "633852fc6d8e11adb9835da1",
@@ -13,7 +13,7 @@
         "age": "20-25",
         "name": "The Bench Press",
         "details":"The bench press, performed either with dumbbells or barbells, is one of the most common weight training exercises.",
-        "time": "40"
+        "time": 20
     },
     {
         "id": "633852fc489056c1897fe7d6",
@@ -21,7 +21,7 @@
         "age": "18-30",
         "name": "Triceps Extension",
         "details": "The triceps extension works the muscles in the back of the arm. The lifter sits on a seated weight bench with his back supported against the bench seat.",
-        "time": "40"
+        "time": 15
     },
     {
         "id": "633852fcbf03ba0ab72a4cf5",
@@ -29,7 +29,7 @@
         "age": "15-22",
         "name": "Lever Lying Leg Curl",
         "details":"Your legs can benefit from using weight-lifting equipment as well. For the lying leg curl, face the bench and in front of the lever pads.",
-        "time": "40"
+        "time": 20
     },
     {
         "id": "633852fcc5fdaba2d0536d18",
@@ -37,7 +37,7 @@
         "age": "19-33",
         "name": "Lateral Raise",
         "details":"The lateral raise is a shoulder exercise that works the lateral portion of the deltoid muscle. Developing this muscle group is like adding shoulder pads to a blouse or jacket.",
-        "time": "40"
+        "time": 40
     },
     {
         "id": "633852fc6377d98a4cf5f3c5",
@@ -45,6 +45,6 @@
         "age": "16-23",
         "name": "Rear Delt Row",
         "details":"Experienced weight lifters, especially those in competition, understand the importance of symmetry between the chest and back muscles.",
-        "time": "40"
+        "time": 30
     }
 ]

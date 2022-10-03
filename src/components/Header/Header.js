@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <nav className='header'>
                 <div className="title">
-                    <FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faPersonWalking} size="2x"></FontAwesomeIcon>
                     <h1 className='title-icon'>Daily Exercise App</h1>
                     
                 </div>
